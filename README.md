@@ -1,3 +1,5 @@
+Forked from [open-bldc-pysim](https://github.com/open-bldc/open-bldc-pysim)
+
 Open-BLDC-pysim is a brushless motor and inverter simulation written in python using
 numpy. It's goal is to test the underlying mathematics of brushless motor
 simulation, to be used later in a C reimplementation directly in Open-BLDC
@@ -20,8 +22,11 @@ Dependencies
 ============
 numpy
 scipy
-python 2.6
+python3
 
 How to run
 ==========
 $ ./sim_1.py
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQwMDQ1NDcwOF19
+-->
