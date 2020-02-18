@@ -23,7 +23,7 @@ import math
 import misc_utils as mu
 
 # parameters
-pset = 2
+pset = 3
 
 if pset == 0:
     Inertia = 0.0022 # aka. 'J' in kg/(m^2)

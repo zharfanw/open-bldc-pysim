@@ -75,7 +75,7 @@ def main():
 
     freq_sim = 1e6                              # simulation frequency
     compress_factor = 3
-    time = pl.arange(0.0, 0.01, 1./freq_sim) # create time slice vector
+    time = pl.arange(0.0, 0.1, 1/freq_sim) # create time slice vector
     X = np.zeros((time.size, dm.sv_size))       # allocate state vector
     Xdebug = np.zeros((time.size, dm.dv_size))  # allocate debug data vector
     Y = np.zeros((time.size, dm.ov_size))       # allocate output vector
